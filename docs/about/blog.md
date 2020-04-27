@@ -1,3 +1,10 @@
+---
+permalink: 'about/blog.html'
+section: about
+tags:
+  - about
+---
+
 # Blog
 
 ## [Announcing Open Web Components](https://dev.to/thepassle/announcing-open-web-components-5h7)

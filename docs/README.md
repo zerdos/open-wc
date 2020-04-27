@@ -1,4 +1,6 @@
 ---
+permalink: 'index.html'
+layout: home.njk
 home: true
 heroImage: /hero.png
 actionText: Get Started →

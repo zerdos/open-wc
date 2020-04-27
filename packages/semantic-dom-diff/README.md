@@ -1,3 +1,10 @@
+---
+permalink: 'testing/semantic-dom-diff.html'
+section: guides
+tags:
+  - guides
+---
+
 # Semantic Dom Diff
 
 `semantic-dom-diff` allows diffing chunks of dom or HTML for semantic equality:
@@ -277,15 +284,3 @@ it('renders correctly', async () => {
   });
 });
 ```
-
-<script>
-  export default {
-    mounted() {
-      const editLink = document.querySelector('.edit-link a');
-      if (editLink) {
-        const url = editLink.href;
-        editLink.href = url.substr(0, url.indexOf('/master/')) + '/master/packages/semantic-dom-diff/README.md';
-      }
-    }
-  }
-</script>

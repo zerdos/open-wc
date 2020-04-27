@@ -1,3 +1,10 @@
+---
+permalink: 'developing/ide.html'
+section: guides
+tags:
+  - guides
+---
+
 # IDE
 
 Your IDE is your primary tool while working with code, we recommend the following tools and plugins to make developing Web Components easier.

@@ -1,3 +1,10 @@
+---
+permalink: 'deploying/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Deploying
 
 To deploy your Web Component we recommend [netlify](https://www.netlify.com/).

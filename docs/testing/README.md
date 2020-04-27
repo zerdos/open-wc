@@ -1,3 +1,10 @@
+---
+permalink: 'testing/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Testing
 
 [//]: # 'AUTO INSERT HEADER PREPUBLISH'

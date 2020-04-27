@@ -1,3 +1,10 @@
+---
+permalink: 'developing/code-examples.html'
+section: guides
+tags:
+  - guides
+---
+
 # Code examples
 
 ## lit-html and lit-element

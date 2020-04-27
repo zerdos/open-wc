@@ -30,14 +30,18 @@
     "test:node-windows": "lerna run --scope \"@open-wc/rollup-plugin-html\" --scope \"@open-wc/rollup-plugin-polyfills-loader\" --scope \"polyfills-loader\" test:node",
     "test:update-snapshots": "lerna run test:update-snapshots",
     "update-dependency": "node scripts/update-dependency.js",
-    "vuepress:build": "vuepress build docs",
+    "vuepress:build": "cd docs && eleventy",
     "vuepress:copy-static": "cp -f packages/demoing-storybook/demo/custom-elements.json docs/.vuepress/public/demoing/demo/custom-elements.json",
-    "vuepress:start": "vuepress dev docs"
+    "vuepress:serve": "es-dev-server --root-dir _site",
+    "vuepress:start": "run-p vuepress:watch vuepress:serve",
+    "vuepress:watch": "cd docs && eleventy --watch"
   },
   "dependencies": {
     "@github/clipboard-copy-element": "^1.1.1"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@commitlint/cli": "7.2.1",
     "@commitlint/config-conventional": "7.1.2",
     "@commitlint/config-lerna-scopes": "7.2.1",
@@ -50,6 +54,7 @@
     "babel-eslint": "^10.0.3",
     "chai": "^4.2.0",
     "core-js": "2.6.10",
+    "es-dev-server": "^1.46.5",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-html": "^6.0.0",

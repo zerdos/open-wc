@@ -1,3 +1,10 @@
+---
+permalink: 'testing/testing-sinon.html'
+section: guides
+tags:
+  - guides
+---
+
 # Testing with sinon
 
 [Sinon](https://sinonjs.org/) is a library that lets you set up mocks, spies, and stubs in javascript. They ship an es-module version, so it's easy to use it in your tests:

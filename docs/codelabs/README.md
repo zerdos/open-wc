@@ -1,3 +1,10 @@
+---
+permalink: 'codelabs/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Codelabs
 
 Codelabs are step by step tutorials. They teach a specific topic through practical examples you can follow along, where each step is explained in depth.

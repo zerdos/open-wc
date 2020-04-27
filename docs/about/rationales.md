@@ -1,3 +1,10 @@
+---
+permalink: 'about/rationales.html'
+section: about
+tags:
+  - about
+---
+
 # Rationales
 
 Our recommendations must fulfill certain criteria before we publish them.
@@ -19,10 +26,8 @@ You are encouraged to freely switch between them depending on what you are worki
 
 The ideal development environment uses no tools, just an up-to-date browser and a simple HTTP server.
 
-::: warning
-Unfortunately we are not fully there yet, because of the [bare modules exception](#bare-specifiers) you will still need to have a server that at least supports them.
-We recommend our [ES Dev Server](../developing/es-dev-server.html) as it does nothing more/nothing less.
-:::
+<div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>Unfortunately we are not fully there yet, because of the <a href="#bare-specifiers">bare modules exception</a> you will still need to have a server that at least supports them.
+We recommend our <a href="/developing/es-dev-server.html" class="">ES Dev Server</a> as it does nothing more/nothing less.</p></div>
 
 When would you choose this workflow:
 

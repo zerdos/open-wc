@@ -55,15 +55,3 @@ Some adjustments have been made
 
 - Allow to process/resolve node pathes besides urls
 - Use mocha/chai for testing (already available in our setup)
-
-<script>
-  export default {
-    mounted() {
-      const editLink = document.querySelector('.edit-link a');
-      if (editLink) {
-        const url = editLink.href;
-        editLink.href = url.substr(0, url.indexOf('/master/')) + '/master/packages/import-maps-process/README.md';
-      }
-    }
-  }
-</script>

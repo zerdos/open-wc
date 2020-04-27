@@ -1,3 +1,10 @@
+---
+permalink: 'linting/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Linting
 
 Linting can help you write consistent code, and easily prevent mistakes. Open-wc recommends the following tools:

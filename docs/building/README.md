@@ -1,3 +1,10 @@
+---
+permalink: 'building/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Building
 
 Building is a necessary optimization when shipping apps to production. By using a build you reduce the total size and amount of files transferred to the end-user, and you ensure your code runs on all supported browsers.

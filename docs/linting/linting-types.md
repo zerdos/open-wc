@@ -1,3 +1,10 @@
+---
+permalink: 'linting/linting-types.html'
+section: guides
+tags:
+  - guides
+---
+
 # Linting Types
 
 Use [TypeScript](https://www.typescriptlang.org/) to type lint your es6 JSDoc annotated code.
@@ -8,9 +15,7 @@ Use [TypeScript](https://www.typescriptlang.org/) to type lint your es6 JSDoc an
 npm init @open-wc linting-types-js
 ```
 
-::: tip
-This is an OPTIONAL recommendation. You will need to opt-in by running the generator or following the manual steps.
-:::
+<div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>This is an OPTIONAL recommendation. You will need to opt-in by running the generator or following the manual steps.</p></div>
 
 ## Manual
 

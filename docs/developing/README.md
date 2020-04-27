@@ -1,3 +1,10 @@
+---
+permalink: 'developing/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Developing
 
 ## Going buildless

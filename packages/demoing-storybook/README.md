@@ -1,3 +1,10 @@
+---
+permalink: 'demoing/index.html'
+section: guides
+tags:
+  - guides
+---
+
 # Demoing via storybook
 
 For demoing, documenting and showcasing different states of your Web Component, we recommend using [storybook](https://storybook.js.org/).
@@ -15,9 +22,7 @@ For demoing, documenting and showcasing different states of your Web Component, 
 
 ## Demo
 
-::: tip
-Don't take our word for it but look at [the documentation of a demo card](https://open-wc.org/demoing-storybook/?path=/docs/demo-card-docs--simple) and [the documentation of the knobs decorator](https://open-wc.org/demoing-storybook/?path=/docs/decorators-withwebcomponentknobs--example-output).
-:::
+<div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>Don't take our word for it but look at <a href="https://open-wc.org/demoing-storybook/?path=/docs/demo-card-docs--simple" target="_blank" rel="noopener noreferrer">the documentation of a demo card<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> and <a href="https://open-wc.org/demoing-storybook/?path=/docs/decorators-withwebcomponentknobs--example-output" target="_blank" rel="noopener noreferrer">the documentation of the knobs decorator<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p></div>
 
 ## Setup
 
@@ -200,9 +205,7 @@ it('has a header', async () => {
 
 ### Create API playground
 
-::: tip
-You can find a more interactive version of this in the [withWebComponentsKnobs docs](/demoing-storybook/?path=/docs/decorators-withwebcomponentknobs--example-output).
-:::
+<div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>You can find a more interactive version of this in the <a href="/demoing-storybook/?path=/docs/decorators-withwebcomponentknobs--example-output">withWebComponentsKnobs docs</a>.</p></div>
 
 Base on the data in [custom-elements.json](./#custom-elementsjson) we can automatically generate knobs for your stories.
 
@@ -311,15 +314,3 @@ module.exports = {
   },
 };
 ```
-
-<script>
-  export default {
-    mounted() {
-      const editLink = document.querySelector('.edit-link a');
-      if (editLink) {
-        const url = editLink.href;
-        editLink.href = url.substr(0, url.indexOf('/master/')) + '/master/packages/building-storybook/README.md';
-      }
-    }
-  }
-</script>

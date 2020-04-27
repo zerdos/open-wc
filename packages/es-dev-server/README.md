@@ -1,3 +1,10 @@
+---
+permalink: 'developing/es-dev-server.html'
+section: guides
+tags:
+  - guides
+---
+
 # ES dev server
 
 A web server for development without bundling, utilizing the browser's standard module loader and efficient browser caching for simple and fast web development.
@@ -711,15 +718,3 @@ main();
 ```
 
 </details>
-
-<script>
-  export default {
-    mounted() {
-      const editLink = document.querySelector('.edit-link a');
-      if (editLink) {
-        const url = editLink.href;
-        editLink.href = url.substr(0, url.indexOf('/master/')) + '/master/packages/es-dev-server/README.md';
-      }
-    }
-  }
-</script>
